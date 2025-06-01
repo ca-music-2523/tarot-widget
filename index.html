@@ -6,6 +6,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Monthly Tarot Reading</title>
+  <!-- ✅ Add your Google Font link here -->
+  <link href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap" rel="stylesheet">
   <style>
     body {
       font-family: sans-serif;
@@ -70,7 +72,16 @@
     h2 {
       margin-bottom: 10px;
     }
-  </style>
+/* === Hover Glow Effects === */
+  .card:hover .card-inner {
+    transform: scale(1.03);
+    transition: transform 0.3s ease;
+  }
+
+  .card-front img:hover {
+    box-shadow: 0 0 15px rgba(245, 130, 174, 0.6);
+  }
+</style>
 </head>
 <body>
   <h2>June Tarot Reading</h2>
@@ -80,7 +91,7 @@
     <div class="card" onclick="this.classList.toggle('flipped')">
       <div class="card-inner">
         <div class="card-front">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/RWS_Tarot_08_Strength.jpg" alt="Strength" />
+          <img src="1.svg" alt="Internal Focus Card" />
         </div>
         <div class="card-back">
           🌿 <strong>Internal Focus:</strong> Eight of Wands — Growth, activity, movement, making progress towards your ideas; Put your head down, focus, get on a good roll with the work you have aligned to do and channel The Hermit energy - Focus on one idea/goal at a time - keep up with your spiritual practices, tend to your plants, be in nature, and nurture your garden.
@@ -92,7 +103,7 @@
     <div class="card" onclick="this.classList.toggle('flipped')">
       <div class="card-inner">
         <div class="card-front">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/d/db/RWS_Tarot_01_Magician.jpg" alt="Magician" />
+          <img src="2.svg" alt="External Focus Card" />
         </div>
         <div class="card-back">
           🌎 <strong>External Focus:</strong> Justice — Fairness is coming to me - Observe and notice the things that are fair and good in my life and show gratitude for them daily - Practice a cord cutting meditation - Maintain perspective as I move forward this month for what I have and what I want to disconnect from - Balance - spiritual realm, material realm, creativity, life, let myself feel what I need but not dwell - all will balance out.
@@ -104,7 +115,7 @@
     <div class="card" onclick="this.classList.toggle('flipped')">
       <div class="card-inner">
         <div class="card-front">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/RWS_Tarot_10_Wheel_of_Fortune.jpg" alt="Wheel of Fortune" />
+          <img src="3.svg" alt="Energy to Leave Behind" />
         </div>
         <div class="card-back">
           🔥 <strong>Let Go:</strong> Five of Cups — Take some time to reflect on the events and experiences I've had especially over the past year and the past decade as I step into my 30s - What do I want to leave behind? What am I ready to move forward to? Journal, Cord Cut meditation, Let myself leave these things behind - I have so much ahead of me and I didn't lose out on anything.
@@ -116,7 +127,7 @@
     <div class="card" onclick="this.classList.toggle('flipped')">
       <div class="card-inner">
         <div class="card-front">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/RWS_Tarot_17_Star.jpg" alt="The Star" />
+          <img src="4.svg" alt="Energy to Bring with You" />
         </div>
         <div class="card-back">
           ✨ <strong>Carry Forward:</strong> The Hermit — Solitude, Clarity, Focus, Quiet - Put my head down and make consistent progress towards my goals - My energy is supporting me in the work I have - Don't exhaust myself or overcommitt to different things - Balance in everything and make sure I have quiet time just for me that isn't work - but give myself the gift of time and really use my time to put my energy towards my ideas and goals.
@@ -128,7 +139,7 @@
     <div class="card" onclick="this.classList.toggle('flipped')">
       <div class="card-inner">
         <div class="card-front">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/RWS_Tarot_19_Sun.jpg" alt="The Sun" />
+          <img src="5.svg" alt="Overall Energy Card" />
         </div>
         <div class="card-back">
           🌞 <strong>Overall Energy:</strong> King of Pentacles — Energy, Abundance, Success in the Material Realm - As I am processing what I want to leave behind and putting the energy into my work - I will be filled with abundant and focused energy and will find success - Ground myself and find balance - Everything will work out because everything has already worked out in the future - I am entering a period of abundance, stability, and focus - Tune into his energy and meditate with him at the start of each work session.
